@@ -4,7 +4,9 @@
   "main": "server.js",
   "scripts": {
     "build": "echo build",
-    "start": "node server.js"
+    "main": "dist/server.bundle.mjs",
+    
+    "start": "node dist/server.bundle.mjs"
   },
   "dependencies": {
     "ws": "^8.18.0"
